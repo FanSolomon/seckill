@@ -2,97 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64638738-a8ea-4027-885b-155fa0975d39" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_alibaba_fastjson_1_2_38.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__io_netty_netty_buffer_4_1_24_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__io_netty_netty_codec_4_1_24_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__io_netty_netty_common_4_1_24_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__io_netty_netty_handler_4_1_24_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__io_netty_netty_resolver_4_1_24_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__io_netty_netty_transport_4_1_24_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__io_projectreactor_reactor_core_2_0_8_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_5_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/src/main/java/com/ytz/seckill/redis/BasePrefix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/src/main/java/com/ytz/seckill/redis/KeyPrefix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/src/main/java/com/ytz/seckill/redis/RedisConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/src/main/java/com/ytz/seckill/redis/RedisPoolFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/src/main/java/com/ytz/seckill/redis/RedisService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../seckill/src/main/java/com/ytz/seckill/redis/UserKey.java" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_4_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_13_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../seckill/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../seckill/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/pom.xml" afterPath="$PROJECT_DIR$/../seckill/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/seckill.iml" afterPath="$PROJECT_DIR$/../seckill/seckill.iml" />
-      <change beforePath="$PROJECT_DIR$/../seckill/src/main/java/com/ytz/seckill/controller/SampleController.java" afterPath="$PROJECT_DIR$/../seckill/src/main/java/com/ytz/seckill/controller/SampleController.java" />
-      <change beforePath="$PROJECT_DIR$/../seckill/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../seckill/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -153,8 +63,8 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../seckill/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="54">
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -551,7 +461,8 @@
     <MESSAGE value="seckill" />
     <MESSAGE value="初始" />
     <MESSAGE value="配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置" />
+    <MESSAGE value="redis config" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1933,8 +1844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../seckill/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="54">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
