@@ -2,58 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64638738-a8ea-4027-885b-155fa0975d39" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/config/UserArgumentResolver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/config/WebConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/controller/GoodsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/controller/LoginController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/dao/MiaoshaUserDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/domain/MiaoshaUser.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/exception/GlobalException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/exception/GlobalExceptionHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/redis/MiaoshaUserKey.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/redis/OrderKey.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/service/MiaoshaUserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/util/MD5Util.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/util/UUIDUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/util/ValidatorUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/validator/IsMobile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/validator/IsMobileValidator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/vo/LoginVo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/npm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/jquery-validation/additional-methods.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/jquery-validation/jquery.validate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/jquery-validation/localization/messages_zh.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/md5.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/mobile/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/mobile/need/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/skin/default/icon-ext.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/skin/default/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/skin/default/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/skin/default/loading-0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/skin/default/loading-1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layer/skin/default/loading-2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/goods_list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/result/CodeMsg.java" afterPath="$PROJECT_DIR$/src/main/java/com/ytz/seckill/result/CodeMsg.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -622,7 +571,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57843137" sideWeight="0.515885" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41754916" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17973857" sideWeight="0.48411497" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16830066" sideWeight="0.48940998" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28267974" sideWeight="0.48940998" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -680,7 +629,8 @@
     <MESSAGE value="配置" />
     <MESSAGE value="redis config" />
     <MESSAGE value="redis config2" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis config2" />
+    <MESSAGE value="登录和分布式session" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录和分布式session" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -885,7 +835,7 @@
         <state relative-caret-position="0">
           <caret line="78" column="36" lean-forward="false" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -973,16 +923,16 @@
         <state relative-caret-position="54">
           <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1039#1040#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1107#1108#0" expanded="false" />
+            <element signature="e#1136#1137#0" expanded="false" />
+            <element signature="e#1162#1163#0" expanded="false" />
+            <element signature="e#1199#1200#0" expanded="false" />
+            <element signature="e#1229#1230#0" expanded="false" />
+            <element signature="e#1457#1458#0" expanded="false" />
+            <element signature="e#1526#1527#0" expanded="false" />
           </folding>
         </state>
       </provider>
