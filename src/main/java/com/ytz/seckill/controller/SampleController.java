@@ -1,6 +1,7 @@
 package com.ytz.seckill.controller;
 
 import com.ytz.seckill.domain.User;
+import com.ytz.seckill.rabbitmq.MQSender;
 import com.ytz.seckill.redis.RedisPoolFactory;
 import com.ytz.seckill.redis.RedisService;
 import com.ytz.seckill.redis.UserKey;
@@ -23,6 +24,37 @@ public class SampleController {
 
     @Autowired
     RedisService redisService;
+
+    @Autowired
+    MQSender sender;
+
+    //	@RequestMapping("/mq/header")
+//    @ResponseBody
+//    public Result<String> header() {
+//		sender.sendHeader("mq/header");
+//        return Result.success("Hello，world");
+//    }
+//
+//	@RequestMapping("/mq/fanout")
+//    @ResponseBody
+//    public Result<String> fanout() {
+//		sender.sendFanout("hello,mq/fanout");
+//        return Result.success("Hello，world");
+//    }
+//
+//	@RequestMapping("/mq/topic")
+//    @ResponseBody
+//    public Result<String> topic() {
+//		sender.sendTopic("hello,mq/topic");
+//        return Result.success("Hello，world");
+//    }
+//
+//	@RequestMapping("/mq")
+//    @ResponseBody
+//    public Result<String> mq() {
+//		sender.send("hello,mq");
+//        return Result.success("Hello，world");
+//    }
 
     @RequestMapping("/thymeleaf")
     public String thymeleaf(Model model) {
