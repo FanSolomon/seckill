@@ -3,10 +3,7 @@ package com.ytz.seckill.redis;
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.ScanParams;
-import redis.clients.jedis.ScanResult;
+import redis.clients.jedis.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +14,15 @@ public class RedisService {
     @Autowired
     JedisPool jedisPool;
 
-    private JedisPool pool = new  JedisPool("redis://localhost:6379/0");
+    private JedisPoolConfig  getJedisPoolConfig() {
+        JedisPoolConfig config = new JedisPoolConfig();
+        config.setMaxTotal(1000);
+        config.setMaxIdle(500);
+        config.setMaxWaitMillis(180000);
+        return config;
+    }
+
+    private JedisPool pool = new  JedisPool(getJedisPoolConfig(), "localhost");
 
     /**
      * 获取当个对象
