@@ -9,6 +9,7 @@ import com.ytz.seckill.result.CodeMsg;
 import com.ytz.seckill.util.MD5Util;
 import com.ytz.seckill.util.UUIDUtil;
 import com.ytz.seckill.vo.LoginVo;
+import com.ytz.seckill.vo.RegisterVo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -110,11 +111,36 @@ public class MiaoshaUserService {
     }
 
     private void addCookie(HttpServletResponse response, String token, MiaoshaUser user) {
+        //将登陆信息存入redis缓存中
         redisService.set(MiaoshaUserKey.token, token, user);
         Cookie cookie = new Cookie(COOKI_NAME_TOKEN, token);
+        //设置cookie有效期，同缓存中信息有效期
         cookie.setMaxAge(MiaoshaUserKey.token.expireSeconds());
         cookie.setPath("/");
         response.addCookie(cookie);
     }
 
+    public Boolean register(RegisterVo registerVo) {
+        if(registerVo == null) {
+            throw new GlobalException(CodeMsg.SERVER_ERROR);
+        }
+        String mobile = registerVo.getMobile();
+        String formPass = registerVo.getPassword();
+        String nickname = registerVo.getNickname();
+        long id = Long.parseLong(mobile);
+        //user是否已经存在
+        MiaoshaUser user = getById(id);
+        if(user != null) {
+            throw new GlobalException(CodeMsg.USER_EXIST_ERROR);
+        }
+        //更新数据库
+        MiaoshaUser toBeInsert = new MiaoshaUser();
+        toBeInsert.setId(id);
+        toBeInsert.setNickname(nickname);
+        toBeInsert.setPassword(MD5Util.formPassToDBPass(formPass, "1a2b3c"));
+        toBeInsert.setSalt("1a2b3c");
+        toBeInsert.setLoginCount(0);
+        miaoshaUserDao.addUser(toBeInsert);
+        return getById(id) != null;
+    }
 }

@@ -98,7 +98,9 @@ public class MiaoshaController implements InitializingBean {
             return Result.error(CodeMsg.MIAO_SHA_OVER);
         }
         //预减库存
+//        String identifier = redisService.lockWithTimeout("resource"+goodsId, 5000, 1000);
         long stock = redisService.decr(GoodsKey.getMiaoshaGoodsStock, ""+goodsId);//10
+//        redisService.releaseLock("resource", identifier);
         if(stock < 0) {
             localOverMap.put(goodsId, true);
             return Result.error(CodeMsg.MIAO_SHA_OVER);
@@ -114,22 +116,6 @@ public class MiaoshaController implements InitializingBean {
         mm.setGoodsId(goodsId);
         sender.sendMiaoshaMessage(mm);
         return Result.success(0);//排队中
-    	/*
-    	//判断库存
-    	GoodsVo goods = goodsService.getGoodsVoByGoodsId(goodsId);//10个商品，req1 req2
-    	int stock = goods.getStockCount();
-    	if(stock <= 0) {
-    		return Result.error(CodeMsg.MIAO_SHA_OVER);
-    	}
-    	//判断是否已经秒杀到了
-    	MiaoshaOrder order = orderService.getMiaoshaOrderByUserIdGoodsId(user.getId(), goodsId);
-    	if(order != null) {
-    		return Result.error(CodeMsg.REPEATE_MIAOSHA);
-    	}
-    	//减库存 下订单 写入秒杀订单
-    	OrderInfo orderInfo = miaoshaService.miaosha(user, goods);
-        return Result.success(orderInfo);
-        */
     }
 
     /**
@@ -142,6 +128,7 @@ public class MiaoshaController implements InitializingBean {
     public Result<Long> miaoshaResult(Model model,MiaoshaUser user,
                                       @RequestParam("goodsId")long goodsId) {
         model.addAttribute("user", user);
+        //session失效情况
         if(user == null) {
             return Result.error(CodeMsg.SESSION_ERROR);
         }

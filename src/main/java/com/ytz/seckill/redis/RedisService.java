@@ -7,12 +7,27 @@ import redis.clients.jedis.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class RedisService {
 
     @Autowired
     JedisPool jedisPool;
+
+//    private static JedisPool pool = null;
+//    static {
+//        JedisPoolConfig config = new JedisPoolConfig();
+//        //设置最大连接数
+//        config.setMaxTotal(1000);
+//        //设置最大空闲数
+//        config.setMaxIdle(500);
+//        //设置最大等待时间
+//        config.setMaxWaitMillis(180000);
+//        //在borrow一个jedis实例时，是否需要验证，若为true，则所有jedis实例均是可用的
+//        config.setTestOnBorrow(true);
+//        pool = new  JedisPool(config, "localhost", 6379, 3000);
+//    }
 
     private JedisPoolConfig  getJedisPoolConfig() {
         JedisPoolConfig config = new JedisPoolConfig();
@@ -215,4 +230,95 @@ public class RedisService {
             jedis.close();
         }
     }
+//
+//    /**
+//     * 加锁
+//     * @param lockName       锁的key
+//     * @param acquireTimeout 获取锁的超时时间，超过这个时间则放弃获取锁 毫秒
+//     * @param timeout        锁的超时时间 毫秒
+//     * @return 锁标识
+//     */
+//    public String lockWithTimeout(String lockName, long acquireTimeout, long timeout) {
+//        Jedis conn = null;
+//        String retIdentifier = null;
+//        try {
+//            // 获取连接
+//            conn = pool.getResource();
+//            // 随机生成一个value
+//            String identifier = UUID.randomUUID().toString();
+//            // 锁名，即key值
+//            String lockKey = "lock:" + lockName;
+//            // 超时时间，上锁后超过此时间则自动释放锁
+//            int lockExpire = (int) (timeout / 1000);
+//
+//            // 获取锁的超时时间，超过这个时间则放弃获取锁
+//            long end = System.currentTimeMillis() + acquireTimeout;
+//            while (System.currentTimeMillis() < end) {
+//                if (conn.setnx(lockKey, identifier) == 1) {
+//                    conn.expire(lockKey, lockExpire);
+//                    // 返回value值，用于释放锁时间确认
+//                    retIdentifier = identifier;
+//                    return retIdentifier;
+//                }
+//                // 返回-1代表key没有设置超时时间，为key设置一个超时时间
+//                if (conn.ttl(lockKey) == -1) {
+//                    conn.expire(lockKey, lockExpire);
+//                }
+//
+//                try {
+//                    Thread.sleep(10);
+//                } catch (InterruptedException e) {
+//                    Thread.currentThread().interrupt();
+//                }
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        } finally {
+//            if (conn != null) {
+//                conn.close();
+//            }
+//        }
+//        return retIdentifier;
+//    }
+//
+//    /**
+//     * 释放锁
+//     * @param lockName   锁的key
+//     * @param identifier 释放锁的标识
+//     * @return
+//     */
+//    public boolean releaseLock(String lockName, String identifier) {
+//        Jedis conn = null;
+//        String lockKey = "lock:" + lockName;
+//        boolean retFlag = false;
+//        try {
+//            conn = pool.getResource();
+//            while (true) {
+//                // 监视lock，准备开始事务
+//                conn.watch(lockKey);
+//                // 通过前面返回的value值判断是不是该锁，若是该锁，则删除，释放锁
+//                if (conn.get(lockKey)==null) {
+//                    return true;
+//                }
+//                if (identifier.equals(conn.get(lockKey))) {
+//                    Transaction transaction = conn.multi(); //返回一个事务控制对象
+//                    transaction.del(lockKey);
+//                    List<Object> results = transaction.exec();  //执行事务
+//                    if (results == null) {
+//                        continue;
+//                    }
+//                    retFlag = true;
+//                }
+//                conn.unwatch();
+//                break;
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        } finally {
+//            if (conn != null) {
+//                conn.close();
+//            }
+//        }
+//        return retFlag;
+//    }
 }

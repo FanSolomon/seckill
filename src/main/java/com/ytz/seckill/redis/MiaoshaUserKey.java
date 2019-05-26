@@ -2,7 +2,7 @@ package com.ytz.seckill.redis;
 
 public class MiaoshaUserKey extends BasePrefix{
 
-    public static final int TOKEN_EXPIRE = 3600*24 * 2;
+    public static final int TOKEN_EXPIRE = 3600*24 * 2;//token过期时间2天
     private MiaoshaUserKey(int expireSeconds, String prefix) {
         super(expireSeconds, prefix);
     }
